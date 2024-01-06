@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+            function showCard(event) {
+              var cardText = event.target;
+              var card = cardText.parentNode.children[1];
+              card.style.display = (card.style.display === 'none') ? 'block' : 'none';
+            }
+          </script>
+        <title>Useful Materials</title>
+    </head>
+    <body class="background-image text-default">
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="https://www.cs.ubbcluj.ro/">
+                <img src="images/UBBlogo.png" alt="" class="UBBlogo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Teaching
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="courses.html">Courses</a>
+                        <a class="dropdown-item" href="exams.html">Exams</a>
+                        <a class="dropdown-item" href="useful_materials.html">Useful extra materials</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <!-- NAVBAR -->
+
+        <div class="opacity-half navbar-flex">
+        <div class="container opacity-full">
+            <br>
+            <h2 class="title-center"><i>Exams</i></h2>
+            <br>
+            <ul class="pl-5">
+                <li>
+                    <h4 id="showCardText" onclick="showCard(event)">Mathematical Analysis...</h4>
+                    <div class="custom-card" id="card" style="display: none;">
+                        <ul>
+                            <li>D. Andrica, D.I. Duca, I. Purdea, I. Pop: Matematica de baza, Editura Studium, Cluj-Napoca, 2004</li>
+                            <li>W.W. Breckner: Analiza matematica. Topologia spatiului R^n, Universitatea din Cluj-Napoca, Cluj-Napoca, 1985</li>
+                            <li>S. Cobzas: Analiza matematica (Calcul diferential), Presa Universitara Clujeana, Cluj-Napoca, 1997</li>
+                            <li>D.I. Duca: Analiza matematica (vol. I), Casa Cartii de Stiinta, Cluj-Napoca, 2013</li>
+                            <li>D.I. Duca, E. Duca: Exercitii si probleme de analiza matematica (vol. I), Editura Casa Cartii de Stiinta,Cluj-Napoca, 2007</li>
+                            <li>D.I. Duca, E. Duca: Exercitii si probleme de analiza matematica (vol II), Editura Casa Cartii de Stiinta,Cluj-Napoca, 2009</li>
+                            <li>M. Megan: Bazele Analizei matematice, vol. 1,2,3, Editura Eurobit, 1997, 1997, 1998</li>
+                            <li>Gh. Siretchi: Calcul diferential si integral, vol. I si II, Editura Stiintifica si Enciclopedica,Bucuresti,1985</li>
+                            <li>V.A. Zorich: Mathematical Analysis, Springer, Berlin, 2004</li>
+                        </ul>
+                    </div>
+                </li>
+                <br>
+                <li>
+                    <h4 id="showCardText2" onclick="showCard(event)">Complex Analysis...</h4>
+                    <div class="custom-card" id="card2" style="display: none;">
+                        <ul>
+                            <li>Hamburg, P., Mocanu, P.T., Negoescu, N., Mathematical Analysis (Complex Functions), Editura Didacticã şi Pedagogică, Bucureşti, 1982 (in Romanian).</li>
+                            <li>Kohr, G., Complex Analysis, lecture notes (in Romanian), 2020.</li>
+                            <li>Kohr, G., Mocanu, P.T., Special Topics of Complex Analysis, Cluj University Press, Cluj-Napoca,=2005 (in Romanian).</li>
+                            <li>Ahlfors, L.V., Complex Analysis, 3rd ed., McGraw-Hill Book Co., New York, 1979.</li>
+                            <li>Bulboacă, T., Joshi, S.B., Goswami, P., Complex Analysis. Theory and Applications, de Gruyter,Berlin, Boston, 2019.</li>
+                            <li>Conway, J.B., Functions of One Complex Variable, vol. I, Graduate Texts in Mathematics, Springer Verlag, New York, 1978 (Second Edition).</li>
+                            <li>Gaşpar, D., Suciu, N., Complex Analysis, Publishing House of the Romanian Academy, Bucharest,1999 (in Romanian).</li>
+                            <li>Krantz, S., Handbook of Complex Variables, Birkhäuser Verlag, Boston, Basel, Berlin, 1999.</li>
+                            <li>Narasimhan, R., Nievergelt, Y., Complex Analysis in One Variable, Second Edition, Birkhäuser, 1985.</li>
+                            <li>Popa, E., Introduction in the Theory of Functions of One Complex Variable, A.I. Cuza Univ. Press ,Iaşi, 2001 (in Romanian)</li>
+                            <li>Rudin, W., Real and Complex Analysis, 3rd ed., Mc. Graw-Hill, 1987.</li>
+                            <li>Stein, E.M., Shakarchi, R., Complex Analysis, Princeton University Press, 2003.</li>
+                        </ul>
+                    </div>
+                </li>
+                <br>
+                <li>
+                    <h4 id="showCardText3" onclick="showCard(event)">Astronomy...</h4>
+                    <div class="custom-card" id="card3" style="display: none;">
+                        <ul>
+                            <li> Bakouline, P., Kononovitch, E., Moroz, V. - Astronomie generale, Moscova, 1975.</li>
+                            <li>Danjon A. - Astronomie generale, Paris, 1959.</li>
+                            <li>Kartunen, H., Kroger, P., Oja, H., Poutanen, M., Donner, K., J., - Fundamental Astronomy, Springer - Verlag, Berlin, Heidelberg, 1994</li>
+                            <li>Menzel, D.H. - Csillagaszat (trad. din engleza), Budapest, 1980.</li>
+                            <li>Motz, L.,Duveen, A. - Essentials of Astronomy, London, 1966.</li>
+                            <li>Pal, A., Pop, V., Ureche, V. - Astronomie, Culegere de probleme, Presa Universitara clujeana, Cluj-Napoca, 1998</li>
+                            <li>Pal, A., Ureche, V. - Astronomie, Bucuresti, 1983.</li>
+                            <li>Ureche, V. - Universul Vol. I Astronomie, Cluj-Napoca, 1982. Universul Vol. II Astrofizica, Cluj-Napoca, 1987.</li>
+                            <li>Weinberg, S. - Primele trei minute ale Universului (traducere din limba engleza), Bucuresti, 1984.</li>
+                            <li>Wyatt, S. - Principles of Astronomy, Boston, 1971.</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </div>
+
+        <footer class="bg-light text-dark text-center py-4">
+            <div class="container">
+                <p>Copyright &copy; Oana Matei</p>
+            </div>
+        </footer>
+    </body>
+</html>
+

@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.home-img {
+    max-width: 200px;
+    height: auto;
+}
+
+.UBBlogo {
+    height: auto;
+    width: 150px;
+}
+
+.background-image {
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+}
+
+.rounded-corners {
+    border-radius: 10px;
+}
+
+.shadowed {
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.text-default {
+    font-size: 20px;
+}
+
+.text-right {
+    text-align: right
+}
+
+.opacity-half {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.opacity-full {
+    opacity: 1;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.custom-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.custom-card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.red-text {
+    color: red;
+}
+
+.socials-logo {
+    height: auto;
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.email-logo {
+    height: auto;
+    width: 50px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+    margin-right: 5px;
+}
+
+.navbar-flex { 
+    flex: 1
+}
+
+.title-center {
+    text-align: center;
+}
+
+.inline-elements{
+    display: inline-flex;
+}
